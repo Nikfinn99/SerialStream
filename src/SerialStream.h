@@ -2,10 +2,10 @@
 #define Serial_Stream_H_
 #include <Print.h>
 
-const char *endl = "\n";
-const char *space = " ";
-const char *tab = "\t";
-const char *comma = ", ";
+extern const char *endl;
+extern const char *space;
+extern const char *tab;
+extern const char *comma;
 
 template <class T>
 inline Print &operator<<(Print &obj, T arg)
