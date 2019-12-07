@@ -8,7 +8,7 @@ extern const char *tab;
 extern const char *comma;
 extern const char *separator;
 
-template <class T>
+template < class T >
 inline Print &operator<<(Print &obj, T arg)
 {
     obj.print(arg);
@@ -32,4 +32,4 @@ inline Print &operator<<(Print &obj, double arg)
     return obj;
 }
 
-#endif //Serial_Stream_H_
+#endif  //Serial_Stream_H_
